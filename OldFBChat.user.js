@@ -24,6 +24,7 @@ if(qs('#facebook')) {
             var bubles;
             if(bubbles=qs('.bubbles')) bubbles.classList.remove('bubbles');
         }
+        else setTimeout(_t,200);
     }
     Arbiter.subscribeOnce('onload/onload', _t)
 }
